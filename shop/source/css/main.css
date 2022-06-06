@@ -1,0 +1,188 @@
+/*general*/
+.btn.btn-link, a {
+    color: 			#DC143C	;
+}
+.btn.btn-default:hover, a:hover {
+    color:		#800000;
+}
+.btn.btn-default{
+    background: 	#808080;
+    color: #ffffff ;
+    border-color: #808080;
+}
+.btn.btn-default:hover, .btn.btn-default:focus, .btn.btn-default:active {
+    background: 	#ffffff;
+    border-color:	#808080;
+    box-shadow: none;
+}
+/*header*/
+.header .logo a {
+    padding: 10px;
+    display: block;
+}
+.header .menu , .header .account_links {
+    display: block;
+    padding: 18px;
+}
+.social.col-xs-4{
+    padding: 0;
+}
+.social.col-xs-4 a {
+    font-size: 18px;
+}
+.header .menu ul{
+    margin:0;
+}
+.header > nav {
+    border-left: 1px solid 		#800000;
+    border-bottom: 1px solid 		#800000;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.header .facebook, .header .twitter, .header .instagram {
+    border: 3px solid #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 17px;
+}
+.header .facebook i {
+    color: #3b5998;
+}
+.header .facebook {
+    border-color: #3b5998;
+}
+.header .facebook:hover i {
+    color: #fff;
+}
+.header .facebook:hover {
+    background-color: #3b5998;
+}
+.header .twitter i {
+    color: #38A1F3;
+}
+.header .twitter {
+    border-color: #38A1F3;
+}
+.header .twitter:hover i {
+    color: #fff;
+}
+.header .twitter:hover {
+    background-color: #38A1F3;
+}
+.header .instagram i {
+    color: #3f729b;
+}
+.header .instagram {
+    border-color: #3f729b;
+}
+.header .instagram:hover i {
+    color: #fff;
+}
+.header .instagram:hover {
+    background-color: #3f729b;
+}
+/*content*/
+body {
+    display:flex;
+    flex-direction: column;
+    position: relative;
+}
+.content {
+    flex:1;
+}
+/*footer*/
+.footer {
+    background-color: 	#808080;
+}
+.footer .container {
+    padding: 1em 0;
+}
+
+/*pages*/
+.flexslider.flexslider-auto {
+    margin:0;
+    border:0;
+    padding: 0;
+}
+.flexslider.flexslider-auto .flex-direction-nav{
+display: none;
+}
+input[type=radio] {
+    width: auto;
+    display: inline-block;
+    height: auto;
+}
+.center-block h1 {
+    margin-top: 2em;
+}
+.center-block .cat-top img,
+.center-block .cat-bottom img {
+    width: 100%;
+}
+.product-details, a, .product-details span {
+    display:block;
+}
+
+.table tr th {
+    text-align: center;
+}
+.add-new-btn {
+    margin-bottom: 2em;
+}
+.delete-comment {
+    margin-bottom: 2em;
+    display: block;
+}
+.delete-forms form {
+    padding: 0;
+}
+.list-group-item {
+    display: inline-block;
+}
+.list-unstyled.list-group {
+    box-shadow: none;
+}
+span.label.label-primary {
+    background-color: 	#800000;
+    padding: 0.5em 1em;
+    font-size: 24px;
+    line-height: normal;
+    font-weight: normal;
+}
+.category-page {
+    margin-bottom: 2em;
+}
+.products-list a {
+    display: block;
+    margin-bottom: 1em;
+}
+.products-list a.photo-block {
+    width: 100%;
+}
+.products-list a.photo-block img {
+    width: 100%;
+}
+.products-list .list-group-item {
+    margin: 0 1%;
+    display: inline-block;
+    width: 23%;
+}
+.product-details-page {
+    padding-left: 4em;
+}
+.product-information span {
+    display: block;
+    width: 100%;
+}
+.product-information {
+    margin-bottom: 2em;
+}
+.product-details-photo img {
+    width: 100%;
+}
+.product-details-description {
+    margin: 2em 0;
+}
